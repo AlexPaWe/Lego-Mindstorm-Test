@@ -1,7 +1,7 @@
 package de.kit.legomindstorm.gruppe5;
 
 /*
- * Enum containg all sections of the course with their identifiers.
+ * Enumeration containing all sections of the course with their identifiers.
  */
 public enum Section {
 	LINE_FOLLOWING(1),
