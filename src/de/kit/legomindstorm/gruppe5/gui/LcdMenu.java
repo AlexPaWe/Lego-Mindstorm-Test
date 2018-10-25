@@ -42,9 +42,11 @@ public class LcdMenu {
 	
 	public void up() {
 		selected = --selected % menuItems.length;
+		drawMenu();
 	}
 	
 	public void down() {
 		selected = ++selected % menuItems.length;
+		drawMenu();
 	}
 }
